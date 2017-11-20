@@ -51,7 +51,7 @@
 </section>
 
 <!-- services -->
-<section id="section-services" class="section pad-bot30 bg-white">
+<section id="section-services" class="section pad-bot30">
       <div class="container">
 
         <div class="row mar-bot40">
