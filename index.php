@@ -17,7 +17,7 @@
         <form action="signin.php" method="post">
             <div class="form-group col-sm-6" >
               <div class="form-group col-sm-3" >
-                  <input type="text" class="form-control" id="uname" placeholder="Id">
+                  <input type="text" class="form-control" id="uname" name="username" placeholder="Id">
 
               </div>
               <div class="form-group name2 col-sm-3">
@@ -25,7 +25,7 @@
               </div>
 
               <div class="form-group name2 col-sm-3">
-                  <button type="button" class="btn btn-primary">Log In</button>
+                  <button type="submit" class="btn btn-primary">Log In</button>
               </div>
             </div>
           </form>
