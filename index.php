@@ -14,22 +14,23 @@
         </button>
      		
         <div class="form-group col-sm-6" ></div>	
-    
-        <div class="form-group col-sm-6" >
-	        <div class="form-group col-sm-3" >
-	            <input type="text" class="form-control" id="uname" placeholder="Id">
-
-	        </div>
-	        <div class="form-group name2 col-sm-3">
-	            <input type="Password" class="form-control" id="pwd" placeholder="Password">
-	        </div>
-
-	        <div class="form-group name2 col-sm-3">
-	            <button type="button" class="btn btn-primary">Log In</button>
-	        </div>
-	        <div class="form-group name2 col-sm-3">
-	            <button type="button" class="btn btn-primary" style="background-color: rgb(0,0,0); ">Sign Up</button>
-	        </div>
+        <form action="signin.php" method="post">
+            <div class="form-group col-sm-6" >
+              <div class="form-group col-sm-3" >
+                  <input type="text" class="form-control" id="uname" name="username" placeholder="Id">
+              </div>
+              <div class="form-group name2 col-sm-3">
+                  <input type="Password" class="form-control" id="pwd" name="password" placeholder="Password">
+              </div>
+              <div class="form-group name2 col-sm-3">
+                  <button type="submit" class="btn btn-primary">Log In</button>
+              </div>
+              <div class="form-group name2 col-sm-3">
+                <button type="button" class="btn btn-primary" style="background-color: rgb(0,0,0); ">Sign Up</button>
+              </div>
+            </div>
+          </form>
+	       
 		</div>	      
 	</div>
 </section>
