@@ -1,9 +1,15 @@
 <html>
 <body>
-	<?php if($_POST["username"] == "rikers" && $_POST["password"] == "2017")  ?>
+	<?php if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")  
 	{
-		Welcome to Leavermann <?php echo $_POST["username"]; ?><br>
+		echo "Welcome to Leavermann, "; 
+		echo $_POST["username"];
 	}
-	
+	else
+	{
+		echo "Unauthorized!!";	
+	}
+?>
+
 </body>
 </html>

@@ -20,7 +20,7 @@
                   <input type="text" class="form-control" id="uname" name="username" placeholder="Id">
               </div>
               <div class="form-group name2 col-sm-3">
-                  <input type="Password" class="form-control" id="pwd" placeholder="Password">
+                  <input type="Password" class="form-control" id="pwd" name="password" placeholder="Password">
               </div>
               <div class="form-group name2 col-sm-3">
                   <button type="submit" class="btn btn-primary">Log In</button>
