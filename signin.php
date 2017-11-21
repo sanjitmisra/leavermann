@@ -4,9 +4,6 @@
 	{
 		Welcome to Leavermann <?php echo $_POST["username"]; ?><br>
 	}
-	<? php else ?>
-	{
-		Welcome Imposter!!	
-	}
+	
 </body>
 </html>
