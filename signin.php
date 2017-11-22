@@ -1,9 +1,17 @@
 <?php
-	
-	function customPageHeader(){?>
-  		<!--Arbitrary HTML Tags-->
-	<?php }
-	include_once('header.php');
+	function customPageHeader()
+	{
+  		if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")  
+		{
+			$PageTitle="Authenticated";
+		}
+		else
+		{ $PageTitle="Failed Auth";}
+		
+		?>
+		<?php 
+   }
+		include_once('header.php');
 ?>
 
 <?php 
@@ -15,7 +23,7 @@
 	}
 	else
 	{
-		$PageTitle="Failed Auth";
+		
 		echo "Unauthorized!!";	
 	}
 ?>
