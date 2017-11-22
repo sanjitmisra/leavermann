@@ -6,7 +6,7 @@
 	include_once('header.php');
 ?>
 
-s<?php 
+<?php 
 	if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")  
 	{
 		echo "Welcome to Leavermann, "; 
