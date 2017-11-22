@@ -6,7 +6,7 @@ if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")
 	}
 else
 	{ 
-		$PageTitle="Failed Auth";
+		$PageTitle="Unauthorized";
 	}	
  
 ?>
@@ -16,8 +16,8 @@ else
 	if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")  
 	{
 		$PageTitle="Authenticated";
-		echo "Welcome to Leavermann, "; 
-		echo $_POST["username"];
+		echo "<H1> Welcome to Leavermann, "; 
+		echo ucfirst($_POST["username"]);
 	}
 	else
 	{
