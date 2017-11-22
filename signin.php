@@ -1,16 +1,15 @@
 <?php
-	function customPageHeader()
+	
+if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")  
 	{
-  		if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")  
-		{
-			$PageTitle="Authenticated";
-		}
-		else
-		{ 
-			$PageTitle="Failed Auth";
-		}	
-    }
- ?>
+		$PageTitle="Authenticated";
+	}
+else
+	{ 
+		$PageTitle="Failed Auth";
+	}	
+ 
+?>
 <?php include_once('header.php'); ?>
 
 <?php 
