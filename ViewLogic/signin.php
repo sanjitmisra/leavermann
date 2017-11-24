@@ -1,6 +1,6 @@
 <?php
 	
-	include_once("ConnectDb.php");
+	include( $SERVER['DOCUMENT_ROOT'] . 'DataLogic/ConnectDb.php');
 		
 	if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")  
 		{
