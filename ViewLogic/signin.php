@@ -1,13 +1,15 @@
 <?php
 	
-if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")  
-	{
-		$PageTitle="Authenticated";
-	}
-else
-	{ 
-		$PageTitle="Unauthorized";
-	}	
+	include_once("DataLogic/ConnectDb.php");
+		
+	if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")  
+		{
+			$PageTitle="Authenticated";
+		}
+	else
+		{ 
+			$PageTitle="Unauthorized";
+		}	
  
 ?>
 <?php include_once('header.php'); ?>
@@ -29,4 +31,3 @@ else
 <?php
  include_once('footer.php');
 ?>
-

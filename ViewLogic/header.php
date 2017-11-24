@@ -6,7 +6,7 @@
 <html class="no-js">
 <!--<![endif]-->
 <head>
-    <title><?= isset($PageTitle) ? $PageTitle : "Default Title"?></title>
+    <title><?= isset($PageTitle) ? $PageTitle : "Leavermann"?></title>
     <!-- Additional tags here -->
     <?php if (function_exists('customPageHeader')){
       customPageHeader();
