@@ -1,6 +1,6 @@
 <?php
 	echo $_SERVER['DOCUMENT_ROOT'];
-	include( $_SERVER['DOCUMENT_ROOT'] . '/Leavermann/DataLogic/ConnectDb.php');
+	include( $_SERVER['DOCUMENT_ROOT'] . '/leavermann/DataLogic/ConnectDb.php');
 		
 	if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")  
 		{
