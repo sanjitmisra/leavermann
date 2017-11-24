@@ -1,25 +1,15 @@
 <?php
-	echo "<H4> In the data directory </br>";
-	function authenticateUser($name, $password)
+	function authenticateUser($name, $pass)
 	{
 		$servername = "localhost";
 		$username = "leavermann";
 		$password = "treadstone@1";
-		$dbname = "Leavermann";
+		$dbname = "leavermann";
 
 		// Create connection
-		$conn = new mysqli($servername, $username, $password, $dbname);
-		// Check connection
-		if ($conn->connect_error) 
-		{
-			die("Connection failed: " . $conn->connect_error);
-		} 
-
-		$sql = "SELECT COUNT(*) AS usercount FROM Users WHERE username=$name AND password=$password";
-		$result = $conn->query($sql);
-		$data=mysql_fetch_assoc($result);
-
-		if ($data[usercount] > 0) 
+		$mysqli = new mysqli($servername, $username, $password, $dbname);
+		$result = $mysqli->query("SELECT * FROM Users WHERE username = '" . $name . "' AND password= '" . $pass . "'");
+		if ($result->num_rows > 0) 
 		{
 			$retval = 1;
 		} 
@@ -28,7 +18,8 @@
 			$retval = 0;
 		}
 		
-		$conn->close();
+		$result->close();
+		$mysqli->close();
 		return $retval;
 	}
 ?>
