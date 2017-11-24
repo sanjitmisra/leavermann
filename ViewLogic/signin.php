@@ -1,6 +1,6 @@
 <?php
 	
-	include_once("DataLogic/ConnectDb.php");
+	include_once("ConnectDb.php");
 		
 	if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")  
 		{
