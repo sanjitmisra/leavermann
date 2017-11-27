@@ -1,19 +1,18 @@
 <?php
-	$PageTitle="Leavermann - Landing";
-	function customPageHeader(){?>
-  		<!--Arbitrary HTML Tags-->
-	<?php }
-	include_once('header.php');
+  $PageTitle="Leavermann - Landing";
+  function customPageHeader(){?>
+      <!--Arbitrary HTML Tags-->
+  <?php }
+  include_once('header.php');
 ?>
 
 <!-- The Body Content Begins Here-->
-<section id="header" class="appear" style="background-color: rgb(240,248,255)">
+<section id="header" class="appear" style="background-color: #dce0e5;">
    <div class = "row" style="padding-top:15px;">
-					   
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
         </button>
-     		
-        <div class="form-group col-sm-6" ></div>	
+        
+        <div class="form-group col-sm-6" ></div>  
         <form action="signin.php" method="post">
             <div class="form-group col-sm-6" >
               <div class="form-group col-sm-3" >
@@ -30,12 +29,12 @@
               </div>
             </div>
           </form>
-	       
-		</div>	      
-	</div>
+         
+    </div>        
+  </div>
 </section>
 
-<section class="featured" style="background-color: rgb(65,105,225)">
+<section class="featured" style="background-color: #27292b;">
       <div class="container" >
         <div class="row mar-bot40" >
           <div class="col-md-6 col-md-offset-3">
