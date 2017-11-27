@@ -19,7 +19,10 @@
   <link rel="stylesheet" href="../js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../css/bootstrap-theme.css">
+  <link rel="stylesheet" href="../css/sidenavbar.css">
   <link rel="stylesheet" href="../css/style.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
   <!-- skin -->
   <link rel="stylesheet" href="../skin/default.css">
 </head>
