@@ -36,7 +36,7 @@
 				else
 				{
 					//Redirect to home page
-					echo  echo "<script> location.href='/leavermann/view/index.php'; </script>";
+					echo "<script> location.href='/leavermann/view/index.php'; </script>";
         			exit;
 				}
 			?>
