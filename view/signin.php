@@ -1,6 +1,5 @@
 <?php
-	//echo $_SERVER['DOCUMENT_ROOT'];
-	include( $_SERVER['DOCUMENT_ROOT'] . '/leavermann/DataLogic/ConnectDb.php');
+	include( $_SERVER['DOCUMENT_ROOT'] . '/leavermann/datalogic/ConnectDb.php');
 
 		
 	if (authenticateUser($_POST["username"], $_POST["password"]) == 1)  
@@ -15,11 +14,10 @@
 		}	
 ?>
 
-
 <?php 
 	include_once('header.php'); 
 ?>
-
+<!-- Page content begins here -->
 <div class = row>
     <div class = col-sm-2>
     	<?php 
@@ -30,7 +28,6 @@
 		<div class = row style="padding-top:100px;">
 			<?php 
 				if ($isAuthenicated == 1)  
-				//if ($_POST["username"] == "rikers" && $_POST["password"] == "2017")  
 				{
 					$PageTitle="Authenticated";
 					echo "<H1> Welcome to Leavermann, "; 
@@ -38,7 +35,9 @@
 				}
 				else
 				{
-					echo "Unauthorized!!";	
+					//Redirect to home page
+					echo  echo "<script> location.href='/leavermann/view/index.php'; </script>";
+        			exit;
 				}
 			?>
 		</div>
@@ -47,5 +46,4 @@
 		 include_once('footer.php');
 		?>
 	</div>
-
 </div>
