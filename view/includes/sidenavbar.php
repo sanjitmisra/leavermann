@@ -15,7 +15,6 @@
                 <a href="#"><i class="fa fa-gift fa-lg"></i> Activities <span class="arrow"></span></a>
               </li>
               <ul class="sub-menu collapse" id="products">
-                  <li class="active"><a href="#"></a></li>
                   <li><a href="#">Apply Leave</a></li>
                   <li><a href="#">Approve</a></li>
                   <li><a href="#">Leave Balance</a></li>

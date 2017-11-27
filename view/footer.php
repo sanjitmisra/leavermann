@@ -14,4 +14,5 @@
 	  <script src="../js/stellar.js"></script>
 	  <script src="../js/jquery.appear.js"></script>
 	  <script src="../js/main.js"></script>
+	  <script src="../js/login.js"></script>
 </html>

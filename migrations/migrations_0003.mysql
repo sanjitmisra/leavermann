@@ -3,10 +3,10 @@
 	GOING FORWARD, EVERY MIGRATION SCRIPT MUST INCLUDE AN INSERT INTO Migrations (migrated_on) VALUES (NOW()) STATEMENT.
 */
 USE Leavermann;
-CREATE TABLE Migrations (id	INT NOT NULL AUTO_INCREMENT,
-						 migrated_on DATETIME, 	
-						 PRIMARY KEY (id)
-						);
+CREATE TABLE IF NOT EXISTS  Migrations (id	INT NOT NULL AUTO_INCREMENT,
+						 	migrated_on DATETIME, 	
+						 	PRIMARY KEY (id));
+						 	
 INSERT INTO Migrations (migrated_on) VALUES (NOW() - INTERVAL 3 DAY);
 INSERT INTO Migrations (migrated_on) VALUES (NOW() - INTERVAL 3 DAY);
 INSERT INTO Migrations (migrated_on) VALUES (NOW());

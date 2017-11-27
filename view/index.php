@@ -9,29 +9,24 @@
 <!-- The Body Content Begins Here-->
 <section id="header" class="appear" style="background-color: #dce0e5;">
    <div class = "row" style="padding-top:15px;">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
-        </button>
-        
-        <div class="form-group col-sm-6" ></div>  
-        <form action="signin.php" method="post">
-            <div class="form-group col-sm-6" >
-              <div class="form-group col-sm-3" >
-                  <input type="text" class="form-control" id="uname" name="username" placeholder="Id">
-              </div>
-              <div class="form-group name2 col-sm-3">
-                  <input type="Password" class="form-control" id="pwd" name="password" placeholder="Password">
-              </div>
-              <div class="form-group name2 col-sm-3">
-                  <button type="submit" class="btn btn-primary">Log In</button>
-              </div>
-              <div class="form-group name2 col-sm-3">
-                <button type="button" class="btn btn-primary" style="background-color: rgb(0,0,0); ">Sign Up</button>
-              </div>
-            </div>
-          </form>
-         
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+      </button>
+      <div class="form-group col-sm-6" ></div>  
+      <div class="form-group col-sm-6" >
+        <div class="form-group col-sm-3" >
+            <input type="text" class="form-control" id="uname" name="username" placeholder="Id">
+        </div>
+        <div class="form-group name2 col-sm-3">
+            <input type="Password" class="form-control" id="pwd" name="password" placeholder="Password">
+        </div>
+        <div class="form-group name2 col-sm-3">
+            <button type="submit" id="login" class="btn btn-primary" onclick="credentialcheck()">Log In</button>
+        </div>
+        <div class="form-group name2 col-sm-3">
+          <button type="button" class="btn btn-primary" style="background-color: rgb(0,0,0); ">Sign Up</button>
+        </div>
+      </div>
     </div>        
-  </div>
 </section>
 
 <section class="featured" style="background-color: #27292b;">
