@@ -6,7 +6,7 @@
 <html class="no-js">
 <!--<![endif]-->
 <head>
-    <title><?= isset($PageTitle) ? $PageTitle : "Default Title"?></title>
+    <title><?= isset($PageTitle) ? $PageTitle : "Leavermann"?></title>
     <!-- Additional tags here -->
     <?php if (function_exists('customPageHeader')){
       customPageHeader();
@@ -15,12 +15,15 @@
   <title>Leavermann</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
-  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/bootstrap-theme.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/isotope.css" media="screen" />
+  <link rel="stylesheet" href="../js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap-theme.css">
+  <link rel="stylesheet" href="../css/sidenavbar.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
   <!-- skin -->
-  <link rel="stylesheet" href="skin/default.css">
+  <link rel="stylesheet" href="../skin/default.css">
 </head>
 <body>

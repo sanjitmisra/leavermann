@@ -1,1 +1,1 @@
-Leavermann is the application on which I am building a real time automation tutorial. 
+Leavermann is a PHP based web application on which I will be setting up a tutorial for real time automation tutorial. This project is in the inception stage and features are being gradually built into it.  

@@ -1,0 +1,7 @@
+USE Leavermann;
+CREATE TABLE Users (id 	INT NOT NULL AUTO_INCREMENT,
+					username VARCHAR(100) NOT NULL,
+					password VARCHAR(10) NOT NULL,
+					PRIMARY KEY (id)
+					);
+INSERT INTO Users (username, password) VALUES ('rikers', '2017');
