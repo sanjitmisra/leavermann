@@ -41,7 +41,7 @@
                 </li>
 
                <li>
-                <a href="/leavermann/view/index.php">
+                <a href="/leavermann/view/signout.php">
                 <i class="fa fa-key fa-lg"></i> Sign Out
                 </a>
               </li>

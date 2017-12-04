@@ -11,6 +11,7 @@
     <?php if (function_exists('customPageHeader')){
       customPageHeader();
     }?>
+    <? php session_start(); ?>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Leavermann</title>
   <meta name="description" content="">
