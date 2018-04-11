@@ -7,3 +7,5 @@ CREATE TABLE Users (id 	INT NOT NULL AUTO_INCREMENT,
 INSERT INTO Users (username, password) VALUES ('rikers', '2017');
 
 ''' Some random
+
+'''SOme more changes
